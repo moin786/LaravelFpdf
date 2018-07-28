@@ -25,13 +25,13 @@ Moinu\LaraPdf\PdfServiceProvider::class,
 For Facade support, paste below line inside aliases array
 
 ```php
-'Pdf' => Moinu\LaraPdf\Facades\Pdf::class,
+'Pdf' => peal\larapdf\Facades\Pdf::class,
 ```
 
 Then run this command
 
 ```shell
-php artisan vendor:publish --provider="Moinu\LaraPdf\PdfServiceProvider"
+php artisan vendor:publish --provider="peal\larapdf\PdfServiceProvider"
 ```
 After vendor published check your config folder pdf-config.php is created.
 
@@ -42,7 +42,7 @@ After vendor published check your config folder pdf-config.php is created.
  */
 
 return [
-    'pdfservice'  => Moinu\LaraPdf\FPDF::class,
+    'pdfservice'  => peal\larapdf\FPDF::class,
 ];
 ```
 ### Basic settings
@@ -65,7 +65,7 @@ $pdf->AddPage()
 ### OR 
 
 ```php
-use Moinu\LaraPdf\Facades\Pdf;
+use peal\larapdf\Facades\Pdf;
 Pdf::AddPage()
     ->SetFont('Arial','B',16)
     ->Cell(40,10,'Hello World!')
@@ -114,7 +114,7 @@ Inside your Controller method
 
 Inside your Controller method
 ```php
-   use Moinu\LaraPdf\Facades\Pdf;
+   use peal\larapdf\Facades\Pdf;
         $row_height = 6;
 
         $y_axis = 50;

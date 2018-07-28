@@ -148,6 +148,18 @@ Inside your Controller method
                 
                 ->Output();
 ```
+### For core php
+```php
+use peal\larapdf\Mediator\Pdf;
+use peal\larapdf\FPDF;
+
+$pdf = new Pdf(new FPDF());
+$pdf->AddPage();
+$pdf->SetFont('Arial','B',16);
+$pdf->Cell(40,10,'Hello World!');
+$pdf->Output();
+```
+
 ### More tutorial from
 [FPDF](http://www.fpdf.org/)
 

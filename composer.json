@@ -1,0 +1,30 @@
+{
+    "name": "peal/larapdf",
+    "description": "PDF document package using laravel",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Moinuddin Chowdhury",
+            "email": "moinuddin7@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "peal\\larapdf\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Barryvdh\\Debugbar\\ServiceProvider"
+            ],
+            "aliases": {
+                "Debugbar": "Barryvdh\\Debugbar\\Facade"
+            }
+        }
+    },
+    "minimum-stability": "stable",
+    "require": {
+        "illuminate/support": "5.6.*"
+    }
+}

@@ -9,7 +9,7 @@
 Inside your project root directory, open your terminal
 
 ```shell
-composer require Moinu/LaraPdf
+composer require peal/larapdf
 ```
 
 Composer will automatically download all dependencies.

@@ -19,7 +19,7 @@ Composer will automatically download all dependencies.
 After complete the installation, open your app.php from config folder, paste below line inside providers array 
 
 ```php
-Moinu\LaraPdf\PdfServiceProvider::class,
+peal\larapdf\PdfServiceProvider::class,
 ```
 
 For Facade support, paste below line inside aliases array

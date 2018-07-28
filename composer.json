@@ -16,10 +16,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Barryvdh\\Debugbar\\ServiceProvider"
+                "peal\\larapdf\\PdfServiceProvider"
             ],
             "aliases": {
-                "Debugbar": "Barryvdh\\Debugbar\\Facade"
+                "Pdf": "peal\\larapdf\\Facades\\Pdf"
             }
         }
     },

@@ -7,7 +7,7 @@ use peal\larapdf\FPDF;
 class Pdf 
 {
     /**
-     * The FPDF instance
+     * The FPDF instance cotainer
      * 
      * 
      * @var Moinu\LaraPdf\FPDF 
@@ -29,7 +29,7 @@ class Pdf
      * @param float $right
      * 
      * 
-     * @return $this object
+     * @return $this
      */
     
     public function SetMargins($left, $top, $right=null) {
@@ -46,7 +46,7 @@ class Pdf
      * @param float $margin
      * 
      * 
-     * @return $this object
+     * @return $this
      */
 
     public function SetLeftMargin($margin) {
@@ -79,7 +79,7 @@ class Pdf
      * @param float $margin
      * 
      * 
-     * @return $this object
+     * @return $this
      */
 
     public function SetRightMargin($margin) 
@@ -94,7 +94,7 @@ class Pdf
      * 
      * @param boolean $auto
      * @param float $margin
-     * @return $this object
+     * @return $this
      */
 
     public function SetAutoPageBreak($auto, $margin=0) {
@@ -109,7 +109,7 @@ class Pdf
      * 
      * @param string $zoom
      * @param string $layout
-     * @return $this object
+     * @return $this
      */
 
     public function SetDisplayMode($zoom, $layout='default') {
@@ -123,7 +123,7 @@ class Pdf
      * Set page compression
      * 
      * @param boolean $compress
-     * @return $this object
+     * @return $this
      */
 
     public function SetCompression($compress) {
@@ -138,7 +138,7 @@ class Pdf
      * 
      * @param string $title
      * @param boolean $isUTF8
-     * @return $this object
+     * @return $this
      */
 
     public function SetTitle($title, $isUTF8=false) {
@@ -153,7 +153,7 @@ class Pdf
      * 
      * @param string $author
      * @param boolean $isUTF8
-     * @return $this object
+     * @return $this
      */
 
     public function SetAuthor($author, $isUTF8=false) {
@@ -168,7 +168,7 @@ class Pdf
      * 
      * @param string $subject
      * @param boolean $isUTF8
-     * @return $this object
+     * @return $this
      */
     public function SetSubject($subject, $isUTF8=false) {
         
@@ -182,7 +182,7 @@ class Pdf
      * 
      * @param string $keywords
      * @param boolean $isUTF8
-     * @return $this object
+     * @return $this
      */
     public function SetKeywords($keywords, $isUTF8=false) {
         
@@ -196,7 +196,7 @@ class Pdf
      * 
      * @param string $creator
      * @param boolean $isUTF8
-     * @return $this object
+     * @return $this
      */
 
     public function SetCreator($creator, $isUTF8=false) {

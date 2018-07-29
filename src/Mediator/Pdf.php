@@ -10,12 +10,12 @@ class Pdf
      * The FPDF instance cotainer
      * 
      * 
-     * @var Moinu\LaraPdf\FPDF 
+     * @var peal\larapdf\FPDF 
      */
     protected $pdf;
     
     /**
-     * @param Moinu\LaraPdf\FPDF $pdf
+     * @param peal\larapdf\FPDF $pdf
      */
     public function __construct(FPDF $pdf) {
         $this->pdf = $pdf;

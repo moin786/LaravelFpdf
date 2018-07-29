@@ -37,7 +37,7 @@ After vendor published check your config folder pdf-config.php is created.
 
 ```php
 /*
- * FPDF class file
+ * FPDF class
  * 
  */
 

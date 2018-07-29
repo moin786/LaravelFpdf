@@ -1,6 +1,6 @@
 <?php
 /*
- * FPDF class file
+ * FPDF class
  * 
  */
 
